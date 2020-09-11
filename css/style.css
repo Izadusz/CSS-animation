@@ -1,0 +1,130 @@
+.box {
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    color: white;
+    font-size: 100px;
+    position: relative;
+}
+
+@keyframes counting {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#jeden {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 1s;
+    position: absolute;
+}
+
+#dwa {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 3s;
+    position: absolute;
+}
+
+#trzy {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 5s;
+    position: absolute;
+}
+
+#cztery {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 7s;
+    position: absolute;
+}
+
+#pięć {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 9s;
+    position: absolute;
+}
+
+#sześć {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 11s;
+    position: absolute;
+}
+
+#siedem {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 13s;
+    position: absolute;
+}
+
+#osiem {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 15s;
+    position: absolute;
+}
+
+#dziewięć {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 17s;
+    position: absolute;
+}
+
+#dziesięć {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 200px;
+    animation-delay: 19s;
+    position: absolute;
+}
+
+#koniec {
+    opacity: 0;
+    animation-name: counting;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    left: 150px;
+    animation-delay: 21s;
+    position: absolute;
+}
